@@ -1,7 +1,7 @@
 # Mạch đóng ngắt tải MKE-M06 MOSFET Module
 
 ## Giới thiệu sản phẩm
-MKE-M06 MOSFET Module là mạch đóng ngắt tải một chiều (DC) sử dụng MOSFET công suất cao, cho phép điều khiển các thiết bị tiêu thụ dòng lớn với điện áp tối đa lên đến 30VDC và dòng tải tối đa 13A. Module sử dụng MOSFET kênh N AO4406AL, giúp đóng cắt tải nhanh, hoạt động bền bỉ, không gây tiếng ồn như relay cơ và có tuổi thọ rất cao.
+MKE-M06 MOSFET Module là mạch đóng ngắt tải một chiều (DC) sử dụng MOSFET công suất cao, cho phép điều khiển các thiết bị tiêu thụ dòng lớn với điện áp tối đa lên đến 30VDC và dòng tải tối đa 13A (khuyến nghị sử dụng 3A). Module sử dụng MOSFET kênh N AO4406AL, giúp đóng cắt tải nhanh, hoạt động bền bỉ, không gây tiếng ồn như relay cơ và có tuổi thọ rất cao.
 
 Mạch được ứng dụng rộng rãi trong nhiều hệ thống điều khiển và tự động hóa như: điều khiển dải LED công suất lớn, động cơ DC, máy bơm mini, van điện từ, quạt làm mát, hệ thống tưới cây tự động, hệ thống chiếu sáng thông minh, robot di động và nhiều thiết bị sử dụng nguồn DC khác. Khả năng đóng cắt bằng MOSFET còn cho phép điều khiển tốc độ động cơ hoặc điều chỉnh độ sáng LED thông qua tín hiệu PWM.
 
@@ -12,7 +12,7 @@ MKE-M06 MOSFET Module hỗ trợ điện áp giao tiếp 3.3V và 5VDC, cho phé
 ## Thông số kỹ thuật
 - Điện áp cấp nguồn: Max 30VDC
 - Điện áp tải tối đa: Max 30VDC
-- Dòng tải tối đa: Max 13A
+- Dòng tải tối đa: Max 13A (khuyến nghị sử dụng 3A khi chưa có tản nhiệt và sử dụng cáp kết nối kèm theo).
 - Chuẩn tín hiệu điều khiển: Digital / PWM
 - Điện áp giao tiếp: TTL 3.3/5VDC
 - Loại MOSFET: AO4406AL N-Channel 30V 13A
@@ -40,19 +40,19 @@ MKE-M06 MOSFET Module hỗ trợ điện áp giao tiếp 3.3V và 5VDC, cho phé
 <tbody>
   <tr>
     <td>- (Domino)</td>
-    <td>Chân kết nối nguồn âm OUTPUT (0VDC) cho Tải</td>
+    <td>Chân kết nối nguồn âm OUTPUT (0VDC) (nối với Tải)</td>
   </tr>
   <tr>
     <td>+ (Domino)</td>
-    <td>Chân kết nối nguồn dương OUTPUT (Max 30VDC) cho Tải</td>
+    <td>Chân kết nối nguồn dương OUTPUT (Max 30VDC) (nối với Tải)</td>
   </tr>
   <tr>
     <td>- (XH2.54)</td>
-    <td>Chân kết nối nguồn âm INPUT (0VDC) cấp cho Tải</td>
+    <td>Chân kết nối nguồn âm INPUT (0VDC) (nối vưới Nguồn Cấp)</td>
   </tr>
   <tr>
     <td>+ (XH2.54)</td>
-    <td>Chân kết nối nguồn dương INPUT (Max 30VDC) cấp cho Tải </td>
+    <td>Chân kết nối nguồn dương INPUT (Max 30VDC) (nối vưới Nguồn Cấp)</td>
   </tr>
   <tr>
     <td>S</td>
@@ -63,9 +63,9 @@ MKE-M06 MOSFET Module hỗ trợ điện áp giao tiếp 3.3V và 5VDC, cho phé
 
 ## Hướng dẫn sử dụng
 ### Hướng dẫn kết nối
-- Kết nối chân nguồn của tải với hai chân OUTPUT + và - của Domino.
-- Kết nối nối nguồn cấp cho tải qua hai chân INPUT + và - của cổng XH2.54
-- Điều khiển tải bằng MOSFET qua chân tín hiệu S (SIGNAL).
+- Kết nối chân nguồn của Tải với hai chân OUTPUT + và - của Domino.
+- Kết nối nối Nguồn Cấp cho Tải qua hai chân INPUT + và - của cổng XH2.54
+- Điều khiển Tải bằng MOSFET qua chân tín hiệu S (SIGNAL).
 <table><thead>
   <tr>
     <th>SIG (Digital In)</th>
