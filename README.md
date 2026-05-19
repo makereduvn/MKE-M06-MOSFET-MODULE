@@ -39,12 +39,20 @@ Mạch đóng ngắt tải MKE-M05 1-Relay Module hỗ trợ điện áp giao ti
   </tr></thead>
 <tbody>
   <tr>
-    <td>-</td>
-    <td>Chân cấp nguồn âm 0VDC</td>
+    <td>- (Domino)</td>
+    <td>Chân kết nối nguồn âm của Tải</td>
   </tr>
   <tr>
-    <td>+</td>
-    <td>Chân cấp nguồn dương Max 30VDC</td>
+    <td>+ (Domino)</td>
+    <td>Chân kết nối nguồn dương của Tải</td>
+  </tr>
+  <tr>
+    <td>- (XH2.54)</td>
+    <td>Chân kết nối nguồn âm cấp cho Tải 0VDC</td>
+  </tr>
+  <tr>
+    <td>+ (XH2.54)</td>
+    <td>Chân kết nối nguồn dương cấp cho Tải Max 30VDC</td>
   </tr>
   <tr>
     <td>S</td>
@@ -55,8 +63,9 @@ Mạch đóng ngắt tải MKE-M05 1-Relay Module hỗ trợ điện áp giao ti
 
 ## Hướng dẫn sử dụng
 ### Hướng dẫn kết nối
-- Cấp nguồn 5VDC cho mạch qua hai chân GND và 5V.
-- Điều khiển Relay qua chân tín hiệu S (SIGNAL).
+- Kết nối chân nguồn của tải với hai chân + và - của Domino.
+- Kết nối nối nguồn cấp cho tải qua hai chân + và - của cổng XH2.54
+- Điều khiển tải bằng MOSFET qua chân tín hiệu S (SIGNAL).
 <table><thead>
   <tr>
     <th>SIG (Digital In)</th>
@@ -76,25 +85,25 @@ Mạch đóng ngắt tải MKE-M05 1-Relay Module hỗ trợ điện áp giao ti
 
 ### Hướng dẫn sử dụng với Arduino Uno / Vietduino Uno / ESP32
 - Trong **Tools / Library Manager**, tìm và cài đặt bộ thư viện tổng hợp **"MKE_ONE" by MakerEdu.vn**
-- Mở chương trình mẫu **"MKE_M05_Relay_Serial_XXX"** tại **File / Examples / MAKEREDU / Module / MKE_M05_Relay**
+- Mở chương trình mẫu **"MKE_M06_MOSFET_Serial_XXX"** tại **File / Examples / MAKEREDU / Module / MKE_M06_MOSFET**
 - Cấu hình board mạch tương ứng là **Arduino Uno / ESP32**, chọn đúng cổng **COM Port** của mạch và nhấn **Upload** để nạp chương trình.
-- Cấp nguồn 5VDC cho mạch, kết nối chân S (SIGNAL) của module với chân điều khiển được khai báo trong chương trình.
+- Cấp nguồn cho mạch, kết nối chân S (SIGNAL) của module với chân điều khiển được khai báo trong chương trình.
 - Xem kết quả mạch hoạt động theo chương trình đã nạp.
 
 ### Hướng dẫn lập trình với Micro:bit (kéo thả khối)
 
-- Khởi động [Microsoft MakeCode](https://makecode.microbit.org/) và **Import** chương trình theo đường link sau: `https://github.com/makereduvn/mke_m05_relay_microbit/`
+- Khởi động [Microsoft MakeCode](https://makecode.microbit.org/) và **Import** chương trình theo đường link sau: `https://github.com/makereduvn/mke_m06_mosfet_microbit/`
 - Kết nối mạch Micro:bit và **Download** chương trình.
-- Cấp nguồn 5VDC cho mạch, kết nối chân S (SIGNAL) của module với chân điều khiển được khai báo trong chương trình.
+- Cấp nguồn cho mạch, kết nối chân S (SIGNAL) của module với chân điều khiển được khai báo trong chương trình.
 - Xem kết quả mạch hoạt động theo chương trình đã nạp.
 
 Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT** trên [Microsoft MakeCode](https://makecode.microbit.org/) theo [hướng dẫn tại đây](https://github.com/makereduvn/MKE_ONE_MICROBIT). Sau khi cài đặt thành công, các khối lệnh của Extension **MKE_ONE_MICROBIT** sẽ xuất hiện trong danh sách block và sẵn sàng để sử dụng.
 
 ## Kích thước sản phẩm
-![MKE-M05 Relay](/extras/MKE-M05_1.jpg)
+![MKE-M06 Mosfet](/extras/MKE-M06_1.jpg)
 
 ## Hình ảnh sản phẩm
-![MKE-M05 Relay](/extras/MKE-M05_2.png)
-![MKE-M05 Relay](/extras/MKE-M05_3.png)
+![MKE-M06 Mosfet](/extras/MKE-M06_2.png)
+![MKE-M06 Mosfet](/extras/MKE-M06_3.png)
 
 
