@@ -1,13 +1,13 @@
 # Mạch đóng ngắt tải MKE-M06 MOSFET Module
 
 ## Giới thiệu sản phẩm
-Mạch đóng ngắt tải MKE-M06 MOSFET Module là mạch đóng ngắt tải một chiều (DC) sử dụng MOSFET công suất cao, cho phép điều khiển các thiết bị tiêu thụ dòng lớn với điện áp tối đa lên đến 30VDC và dòng tải tối đa 13A. Module sử dụng MOSFET kênh N AO4406AL, giúp đóng cắt tải nhanh, hoạt động bền bỉ, không gây tiếng ồn như relay cơ và có tuổi thọ rất cao.
+MKE-M06 MOSFET Module là mạch đóng ngắt tải một chiều (DC) sử dụng MOSFET công suất cao, cho phép điều khiển các thiết bị tiêu thụ dòng lớn với điện áp tối đa lên đến 30VDC và dòng tải tối đa 13A. Module sử dụng MOSFET kênh N AO4406AL, giúp đóng cắt tải nhanh, hoạt động bền bỉ, không gây tiếng ồn như relay cơ và có tuổi thọ rất cao.
 
-Mạch đóng ngắt tải MKE-M06 MOSFET Module được ứng dụng rộng rãi trong nhiều hệ thống điều khiển và tự động hóa như: điều khiển dải LED công suất lớn, động cơ DC, máy bơm mini, van điện từ, quạt làm mát, hệ thống tưới cây tự động, hệ thống chiếu sáng thông minh, robot di động và nhiều thiết bị sử dụng nguồn DC khác. Khả năng đóng cắt bằng MOSFET còn cho phép điều khiển tốc độ động cơ hoặc điều chỉnh độ sáng LED thông qua tín hiệu PWM.
+Mạch được ứng dụng rộng rãi trong nhiều hệ thống điều khiển và tự động hóa như: điều khiển dải LED công suất lớn, động cơ DC, máy bơm mini, van điện từ, quạt làm mát, hệ thống tưới cây tự động, hệ thống chiếu sáng thông minh, robot di động và nhiều thiết bị sử dụng nguồn DC khác. Khả năng đóng cắt bằng MOSFET còn cho phép điều khiển tốc độ động cơ hoặc điều chỉnh độ sáng LED thông qua tín hiệu PWM.
 
-Mạch đóng ngắt tải MKE-M06 MOSFET Module được thiết kế đặc biệt phù hợp cho các mô hình robot, dự án STEM, đồ án học tập và thực hành điện – điện tử, giúp người học dễ dàng tiếp cận nguyên lý điều khiển tải công suất bằng MOSFET, kỹ thuật PWM và các ứng dụng tự động hóa thực tế. Đây là công cụ lý tưởng cho học sinh, sinh viên, giáo viên giảng dạy STEM và những người yêu thích sáng tạo công nghệ.
+Sản phẩm được thiết kế đặc biệt phù hợp cho các mô hình robot, dự án STEM, đồ án học tập và thực hành điện – điện tử, giúp người học dễ dàng tiếp cận nguyên lý điều khiển tải công suất bằng MOSFET, kỹ thuật PWM và các ứng dụng tự động hóa thực tế. Đây là công cụ lý tưởng cho học sinh, sinh viên, giáo viên giảng dạy STEM và những người yêu thích sáng tạo công nghệ.
 
-Mạch đóng ngắt tải MKE-M05 1-Relay Module hỗ trợ điện áp giao tiếp 3.3V và 5VDC, cho phép kết nối trực tiếp và an toàn với hầu hết các bo mạch điều khiển phổ biến hiện nay như Arduino, Raspberry Pi, Jetson Nano, Micro:bit và nhiều nền tảng khác. Sản phẩm đi kèm cáp kết nối 3P XH2.54 – Dupont, đảm bảo kết nối chắc chắn, ổn định và thuận tiện trong quá trình lắp đặt và sử dụng.
+MKE-M06 MOSFET Module hỗ trợ điện áp giao tiếp 3.3V và 5VDC, cho phép kết nối trực tiếp và an toàn với hầu hết các bo mạch điều khiển phổ biến hiện nay như Arduino, Raspberry Pi, NVIDIA, Micro:bit Educational Foundation và nhiều nền tảng khác. Sản phẩm đi kèm cáp kết nối 3P XH2.54 – Dupont, đảm bảo kết nối chắc chắn, ổn định và thuận tiện trong quá trình lắp đặt và sử dụng.
 
 ## Thông số kỹ thuật
 - Điện áp cấp nguồn: Max 30VDC
