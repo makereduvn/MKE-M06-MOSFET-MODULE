@@ -12,7 +12,7 @@ MKE-M06 MOSFET Module hỗ trợ điện áp giao tiếp 3.3V và 5VDC, cho phé
 ## Thông số kỹ thuật
 - Điện áp cấp nguồn: Max 30VDC
 - Điện áp tải tối đa: Max 30VDC
-- Dòng tải tối đa: Max 13A (khuyến nghị sử dụng 3A khi chưa có tản nhiệt và sử dụng cáp kết nối kèm theo).
+- Dòng tải tối đa: Max 13A (khuyến nghị sử dụng 3A khi chưa có tản nhiệt và sử dụng cáp kết nối mặc định kèm theo).
 - Chuẩn tín hiệu điều khiển: Digital / PWM
 - Điện áp giao tiếp: TTL 3.3/5VDC
 - Loại MOSFET: AO4406AL N-Channel 30V 13A
