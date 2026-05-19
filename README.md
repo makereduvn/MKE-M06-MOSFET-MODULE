@@ -40,19 +40,19 @@ Mạch đóng ngắt tải MKE-M05 1-Relay Module hỗ trợ điện áp giao ti
 <tbody>
   <tr>
     <td>- (Domino)</td>
-    <td>Chân kết nối nguồn âm của Tải</td>
+    <td>Chân kết nối nguồn âm OUTPUT (0VDC) cho Tải</td>
   </tr>
   <tr>
     <td>+ (Domino)</td>
-    <td>Chân kết nối nguồn dương của Tải</td>
+    <td>Chân kết nối nguồn dương OUTPUT (Max 30VDC) cho Tải</td>
   </tr>
   <tr>
     <td>- (XH2.54)</td>
-    <td>Chân kết nối nguồn âm cấp cho Tải 0VDC</td>
+    <td>Chân kết nối nguồn âm INPUT (0VDC) cấp cho Tải</td>
   </tr>
   <tr>
     <td>+ (XH2.54)</td>
-    <td>Chân kết nối nguồn dương cấp cho Tải Max 30VDC</td>
+    <td>Chân kết nối nguồn dương INPUT (Max 30VDC) cấp cho Tải </td>
   </tr>
   <tr>
     <td>S</td>
@@ -63,8 +63,8 @@ Mạch đóng ngắt tải MKE-M05 1-Relay Module hỗ trợ điện áp giao ti
 
 ## Hướng dẫn sử dụng
 ### Hướng dẫn kết nối
-- Kết nối chân nguồn của tải với hai chân + và - của Domino.
-- Kết nối nối nguồn cấp cho tải qua hai chân + và - của cổng XH2.54
+- Kết nối chân nguồn của tải với hai chân OUTPUT + và - của Domino.
+- Kết nối nối nguồn cấp cho tải qua hai chân INPUT + và - của cổng XH2.54
 - Điều khiển tải bằng MOSFET qua chân tín hiệu S (SIGNAL).
 <table><thead>
   <tr>
